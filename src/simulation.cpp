@@ -160,9 +160,7 @@ void Simulation::handleBoundary(Particle& p, double Lx, double Ly) {
 
 void Simulation::run(std::vector<Particle> & particles) {
     for (uint16_t runs = 0; runs < 5; runs++){
-        for (int i = 0; i < 1; i++){
-            integrate(particles, dt);
-        }
+        integrate(particles, dt);
     }
 }   
 
