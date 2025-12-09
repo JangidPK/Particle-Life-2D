@@ -14,10 +14,6 @@ A C++ simulation of particle interactions inspired by the *"Particle Life"* conc
 
 ---
 
-## Project Structure
-
-
-
 ##  Build Instructions
 
 ### Build (with CMake)
