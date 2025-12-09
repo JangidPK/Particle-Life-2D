@@ -4,42 +4,23 @@ A C++ simulation of particle interactions inspired by the *"Particle Life"* conc
 
 ---
 
-## 🧪 Features
+## Features
 
-- ✅ Multi-type particle system (with user-defined attractive/repulsive forces)
-- ✅ Real-time simulation and visualization using **SFML**
-- ✅ Adjustable parameters (particle count, interaction strength, temperature, etc.)
-- ✅ Support for **reflecting** and **periodic boundary conditions**
-- ✅ Overlay of runtime stats (time elapsed, particle count, etc.)
+- Multi-type particle system (with user-defined attractive/repulsive forces)
+- Real-time simulation and visualization using **SFML**
+- Adjustable parameters (particle count, interaction strength, temperature, etc.)
+- Support for **reflecting** and **periodic boundary conditions**
+- Overlay of runtime stats (time elapsed, particle count, etc.)
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
-```
-Particle-Life-2D/
-│
-├── src/
-│ ├── main.cpp # Entry point, initializes the Manager
-│ ├── manager.h / .cpp # Manages window, simulation loop, rendering
-│ ├── simulation.h / .cpp # Core physics: particle updates, interactions
-│ ├── particle.h / .cpp # Particle class: state, rendering
-│ ├── text.h / .cpp # Text overlay utility using SFML
-│ ├── parameters.h # Global simulation parameters
-│
-├── assets/
-│ └── font.ttf # Font used for text overlays
-│
-├── include/ # (Optional) For public headers, if modularizing
-│
-├── CMakeLists.txt # CMake build configuration (optional)
-├── README.md # This file
-```
----
 
-## 🔧 Build Instructions
 
-### 🧱 Build (with CMake)
+##  Build Instructions
+
+### Build (with CMake)
 ```
 mkdir build && cd build
 cmake ..
